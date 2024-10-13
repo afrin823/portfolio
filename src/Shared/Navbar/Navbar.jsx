@@ -4,12 +4,11 @@ const Navbar = () => {
     const navLink = (
         <div className=" flex md:flex-row flex-col font-semibold mt-5">
             <NavLink className="mr-5" to="/">Home</NavLink>
+            <NavLink className="mr-5" to="/about">Abut Me</NavLink>
+            <NavLink className="mr-5" to="/skills">Skills</NavLink>
             <NavLink className="mr-5" to="/service">Services</NavLink>
-            <NavLink className="mr-5" to="/">Resume</NavLink>
-            <NavLink className="mr-5" to="/">Projects</NavLink>
-            <NavLink className="mr-5" to="/">Blog</NavLink>
-            <NavLink className="mr-5" to="/">Pages</NavLink>
-            <NavLink className="mr-5" to="/">Contact</NavLink>
+            <NavLink className="mr-5" to="/project">Projects</NavLink>
+            <NavLink className="mr-5" to="/contact">Contact</NavLink>
          </div>
     )
     return (
