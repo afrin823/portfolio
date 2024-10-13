@@ -4,7 +4,7 @@ const Navbar = () => {
     const navLink = (
         <div className=" flex md:flex-row flex-col font-semibold mt-5">
             <NavLink className="mr-5" to="/">Home</NavLink>
-            <NavLink className="mr-5" to="/">Services</NavLink>
+            <NavLink className="mr-5" to="/service">Services</NavLink>
             <NavLink className="mr-5" to="/">Resume</NavLink>
             <NavLink className="mr-5" to="/">Projects</NavLink>
             <NavLink className="mr-5" to="/">Blog</NavLink>
@@ -14,7 +14,7 @@ const Navbar = () => {
     )
     return (
         <div>
-            <div className="navbar bg-[#31302f] text-white">
+            <div className="navbar shadow-md  text-white">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -37,7 +37,7 @@ const Navbar = () => {
                            {navLink}
                         </ul>
                     </div>
-                    <a className="btn btn-ghost text-xl">AFRIN</a>
+                    <a className="btn btn-ghost text-3xl">AF<span className="text-yellow-400">R</span>IN</a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
@@ -45,7 +45,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a className="btn">Resume</a>
+                    <a className="btn bg-yellow-300 rounded-full px-8 border-2">Resume</a>
                 </div>
             </div>
         </div>

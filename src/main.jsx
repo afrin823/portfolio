@@ -6,8 +6,11 @@ import router from './Router/Router.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <div >
-    <RouterProvider router={router} />
+    <div className=' text-transparent bg-clip-border bg-gradient-to-r from-gray-800 via-gray-700 to-gray-800 text-white'>
+      <div className='max-w-screen-xl mx-auto'>
+      <RouterProvider router={router} />
+      
+      </div>    
     </div>
   
   </StrictMode>,

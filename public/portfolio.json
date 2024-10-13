@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "title": "Lux Tower",
+    "technologies": ["React ", "Node.js ", "MongoDB ", "Tailwind CSS ", "Firebase"],
+    "liveLink": "https://luxtower.netlify.app/",
+    "imageUrl": "https://i.ibb.co.com/Xs0jVsc/Screenshot-27.png"
+  },
+  {
+    "id": 2,
+    "title": "Global Explorer",
+    "technologies": ["React", "Tailwind CSS", "Firebase", "MongoDB", "Node.js "],
+    "liveLink": "https://job-assignment-11.web.app/",
+    "imageUrl": "https://i.ibb.co.com/cySNTQJ/Screenshot-20.png"
+  },
+  {
+    "id": 3,
+    "title": "Assignment Manager",
+    "technologies": ["React", "Firebase", "MongoDB", "Tailwind CSS"],
+    "liveLink": "https://full-stact-projct.web.app/",
+    "imageUrl": "https://i.ibb.co.com/gDQgHTb/Screenshot-21.png"
+  },
+  {
+    "id": 4,
+    "title": "CMS Blog Platform",
+    "technologies": ["WordPress", "PHP", "MySQL", "Bootstrap"],
+    "liveLink": "https://taupe-snickerdoodle-c71215.netlify.app/",
+    "imageUrl": "https://i.ibb.co.com/QY0YqMR/Screenshot-22.png"
+  },
+  {
+    "id": 5,
+    "title": "E-commerce Store",
+    "technologies": ["React", "Node.js", "MongoDB", "Stripe API"],
+    "liveLink": "https://6606c1620a8a02f48bcbf47d--roaring-medovik-67c23c.netlify.app/",
+    "imageUrl": "https://i.ibb.co.com/TTjG7S3/Screenshot-23.png"
+  },
+  {
+    "id": 6,
+    "title": "Personal Portfolio",
+    "technologies": ["React", "Tailwind CSS", "JavaScript"],
+    "liveLink": "https://65f7d69bdb10022011898f17--chimerical-bonbon-b85997.netlify.app/",
+    "imageUrl": "https://i.ibb.co.com/6XLCPsN/Screenshot-24.png"
+  }
+]
